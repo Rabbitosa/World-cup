@@ -406,6 +406,8 @@ const main = () => {
 
   let groupWinners = [];
   let groupRunnerUps = [];
+  let thirdPlaces = [];
+  let forthPlaces = [];
 
   //prva kolo group[0] vs group[1] && group[2] vs group[3]
   //drugo kolo group[0] vs group[2] && group[1] vs group[3]
@@ -417,8 +419,8 @@ const main = () => {
     let finalScore = [homeTeamGoals, awayTeamGoals];
     let finalScoreReversed = [awayTeamGoals, homeTeamGoals];
 
-    let homeTeamPoints;
-    let awayTeamPoints;
+    let homeTeamPoints = 0;
+    let awayTeamPoints = 0;
 
     if (homeTeamGoals > awayTeamGoals) {
       homeTeamPoints = 3;
@@ -472,15 +474,37 @@ const main = () => {
     let sorted = group.sort((a, b) => {
       if (a.totalPoints > b.totalPoints) {
         return -1;
-      }
-      if (a.totalPoints < b.totalPoints) {
+      } else if (a.totalPoints < b.totalPoints) {
         return 1;
-      } 
+      } else {
+        if (a.goalDifference > b.goalDifference) {
+          return -1;
+        } else if (a.goalDifference < b.goalDifference) {
+          return 1;
+        } else {
+          if (a.scoredGoals > b.scoredGoals) {
+            return -1;
+          } else if (a.scoredGoals < b.scoredGoals) {
+            return 1;
+          } else {
+              let selectedGame = a.groupGames.find(game => game.opponent === b.name);
+              if(selectedGame.points > 0){
+                return -1
+              } else {
+                return 1
+            }
+          }
+        };
+      };
       return 0;
     });
+
     console.log("Grupa ", group[0].groupName);
-    console.log("Pobednik ", sorted[0].name);
-    console.log(`Runner Up`, sorted[1].name);
+    console.log('Position', 'Team', 'Rank', 'Scored/Consided Goals', 'Total Points')
+    console.log("1.", sorted[0].name, `(${sorted[0].rank})`, `${sorted[0].scoredGoals}:${sorted[0].considedGoals}`, sorted[0].totalPoints );
+    console.log("2.", sorted[1].name, `(${sorted[1].rank})`, `${sorted[1].scoredGoals}:${sorted[1].considedGoals}`, sorted[1].totalPoints );
+    console.log("3.", sorted[2].name, `(${sorted[2].rank})`, `${sorted[2].scoredGoals}:${sorted[2].considedGoals}`, sorted[2].totalPoints );
+    console.log("4.", sorted[3].name, `(${sorted[3].rank})`, `${sorted[3].scoredGoals}:${sorted[3].considedGoals}`, sorted[3].totalPoints );
 
     groupWinners.push({
       name: sorted[0].name,
@@ -491,6 +515,16 @@ const main = () => {
       name: sorted[1].name,
       groupName: sorted[1].groupName,
       groupPosition: "2",
+    });
+    thirdPlaces.push({
+      name: sorted[2].name,
+      groupName: sorted[2].groupName,
+      groupPosition: "3",
+    });
+    forthPlaces.push({
+      name: sorted[3].name,
+      groupName: sorted[3].groupName,
+      groupPosition: "4",
     });
   };
 
@@ -539,7 +573,7 @@ const main = () => {
     ) {
       console.log("Pobednik", game.homeTeam.name);
       game.winner = game.homeTeam.name;
-    }
+    } 
   };
 
   const roundOf16Simulation = () => {
