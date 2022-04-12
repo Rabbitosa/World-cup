@@ -8,6 +8,9 @@ const groups = [
       groupPosition: 0,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -20,6 +23,9 @@ const groups = [
       groupPosition: 1,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -32,6 +38,9 @@ const groups = [
       groupPosition: 2,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -44,6 +53,9 @@ const groups = [
       groupPosition: 3,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -58,6 +70,9 @@ const groups = [
       groupPosition: 0,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -70,6 +85,9 @@ const groups = [
       groupPosition: 1,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -82,6 +100,9 @@ const groups = [
       groupPosition: 2,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -94,6 +115,9 @@ const groups = [
       groupPosition: 3,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -108,6 +132,9 @@ const groups = [
       groupPosition: 0,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -120,6 +147,9 @@ const groups = [
       groupPosition: 1,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -132,6 +162,9 @@ const groups = [
       groupPosition: 2,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -144,6 +177,9 @@ const groups = [
       groupPosition: 3,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -158,6 +194,9 @@ const groups = [
       groupPosition: 0,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -170,6 +209,9 @@ const groups = [
       groupPosition: 1,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -182,6 +224,9 @@ const groups = [
       groupPosition: 2,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -194,6 +239,9 @@ const groups = [
       groupPosition: 3,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -208,6 +256,9 @@ const groups = [
       groupPosition: 0,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -220,6 +271,9 @@ const groups = [
       groupPosition: 1,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -232,6 +286,9 @@ const groups = [
       groupPosition: 2,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -244,6 +301,9 @@ const groups = [
       groupPosition: 3,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -258,6 +318,9 @@ const groups = [
       groupPosition: 0,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -270,6 +333,9 @@ const groups = [
       groupPosition: 1,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -282,6 +348,9 @@ const groups = [
       groupPosition: 2,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -294,6 +363,9 @@ const groups = [
       groupPosition: 3,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -308,6 +380,9 @@ const groups = [
       groupPosition: 0,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -320,6 +395,9 @@ const groups = [
       groupPosition: 1,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -332,6 +410,9 @@ const groups = [
       groupPosition: 2,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -344,6 +425,9 @@ const groups = [
       groupPosition: 3,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -358,6 +442,9 @@ const groups = [
       groupPosition: 0,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -370,6 +457,9 @@ const groups = [
       groupPosition: 1,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -382,6 +472,9 @@ const groups = [
       groupPosition: 2,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -394,6 +487,9 @@ const groups = [
       groupPosition: 3,
       groupGames: [], // opponent, score, points
       totalPoints: 0,
+      totalWins: 0,
+      totalLoses: 0,
+      totalTies: 0,
       goalDifference: 0,
       scoredGoals: 0,
       considedGoals: 0,
@@ -421,16 +517,31 @@ const main = () => {
 
     let homeTeamPoints = 0;
     let awayTeamPoints = 0;
+    let homeTeamWins = 0;
+    let homeTeamLoses = 0;
+    let homeTeamTies = 0;
+    let awayTeamWins = 0;
+    let awayTeamLoses = 0;
+    let awayTeamTies = 0;
 
     if (homeTeamGoals > awayTeamGoals) {
       homeTeamPoints = 3;
+      homeTeamWins = homeTeamWins + 1;
+
       awayTeamPoints = 0;
+      awayTeamLoses = 1;
     } else if (homeTeamGoals < awayTeamGoals) {
       homeTeamPoints = 0;
+      homeTeamLoses = 1;
+
       awayTeamPoints = 3;
+      awayTeamWins = 1;
     } else {
       homeTeamPoints = 1;
+      homeTeamTies = 1;
+
       awayTeamPoints = 1;
+      awayTeamTies = 1;
     }
 
     console.log(
@@ -442,6 +553,8 @@ const main = () => {
       // `(${homeTeamGoals} - ${awayTeamGoals})`
     );
 
+
+    
     //home team calculations
     group[homeTeam].groupGames.push({
       opponent: group[awayTeam].name,
@@ -449,10 +562,15 @@ const main = () => {
       points: homeTeamPoints,
     });
 
+
+    // wins loses draws, if 3 points wins 0 loses etc etc
     group[homeTeam].totalPoints += homeTeamPoints;
     group[homeTeam].scoredGoals += finalScore[0];
     group[homeTeam].considedGoals += finalScore[1];
     group[homeTeam].goalDifference = group[homeTeam].scoredGoals - group[homeTeam].considedGoals;
+    group[homeTeam].totalWins += homeTeamWins;
+    group[homeTeam].totalLoses += homeTeamLoses;
+    group[homeTeam].totalTies += homeTeamTies
 
     //away team calculations
     group[awayTeam].groupGames.push({
@@ -465,11 +583,14 @@ const main = () => {
     group[awayTeam].scoredGoals += finalScoreReversed[0];
     group[awayTeam].considedGoals += finalScoreReversed[1];
     group[awayTeam].goalDifference = group[awayTeam].scoredGoals - group[awayTeam].considedGoals;
+    group[awayTeam].totalWins += awayTeamWins;
+    group[awayTeam].totalLoses += awayTeamLoses;
+    group[awayTeam].totalTies += awayTeamTies
   };
 
   // 2. broj bodova && gol razlika (dati/primljeni)
   // 3. broj bodova && gol razlika (dati/primljeni) && broj postignutih golova
-  // 4. broj bodova && gol razlika (dati/primljeni) && broj postignutih golova && međusobni duel
+  // 4. broj bodova && gol razlika (dati/primljeni) && broj postignutih golova && medjusobni duel
   const rankingCalculations = (group) => {
     let sorted = group.sort((a, b) => {
       if (a.totalPoints > b.totalPoints) {
@@ -500,11 +621,11 @@ const main = () => {
     });
 
     console.log("Grupa ", group[0].groupName);
-    console.log('Position', 'Team', 'Rank', 'Scored/Consided Goals', 'Total Points')
-    console.log("1.", sorted[0].name, `(${sorted[0].rank})`, `${sorted[0].scoredGoals}:${sorted[0].considedGoals}`, sorted[0].totalPoints );
-    console.log("2.", sorted[1].name, `(${sorted[1].rank})`, `${sorted[1].scoredGoals}:${sorted[1].considedGoals}`, sorted[1].totalPoints );
-    console.log("3.", sorted[2].name, `(${sorted[2].rank})`, `${sorted[2].scoredGoals}:${sorted[2].considedGoals}`, sorted[2].totalPoints );
-    console.log("4.", sorted[3].name, `(${sorted[3].rank})`, `${sorted[3].scoredGoals}:${sorted[3].considedGoals}`, sorted[3].totalPoints );
+    console.log('Position', 'Team', 'Rank','Wins/Loses/Ties', 'Scored/Consided Goals', 'Total Points')
+    console.log("1.", sorted[0].name, `(${sorted[0].rank})`,`${sorted[0].totalWins}`," ",`${sorted[0].totalLoses}`,' ',`${sorted[0].totalTies}`," ",`${sorted[0].scoredGoals}:${sorted[0].considedGoals}`, sorted[0].totalPoints );
+    console.log("2.", sorted[1].name, `(${sorted[1].rank})`,`${sorted[1].totalWins}`," ",`${sorted[1].totalLoses}`,' ',`${sorted[1].totalTies}`," ", `${sorted[1].scoredGoals}:${sorted[1].considedGoals}`, sorted[1].totalPoints );
+    console.log("3.", sorted[2].name, `(${sorted[2].rank})`,`${sorted[2].totalWins}`," ",`${sorted[2].totalLoses}`,' ',`${sorted[2].totalTies}`," ", `${sorted[2].scoredGoals}:${sorted[2].considedGoals}`, sorted[2].totalPoints );
+    console.log("4.", sorted[3].name, `(${sorted[3].rank})`,`${sorted[3].totalWins}`," ",`${sorted[3].totalLoses}`,' ',`${sorted[3].totalTies}`," ", `${sorted[3].scoredGoals}:${sorted[3].considedGoals}`, sorted[3].totalPoints );
 
     groupWinners.push({
       name: sorted[0].name,
